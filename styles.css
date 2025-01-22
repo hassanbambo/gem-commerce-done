@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html, body {
+    font-family: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #161723;
+    font: 600 40px/48px "Inter";
+    letter-spacing: 0.25px;
+}
+
+h4 {
+    color: #161723;
+    font: 600 19px/28.5px "Inter";
+    letter-spacing: 0.5px;
+}
+
+p {
+    color: #424153;
+    font: 400 16px/24px "Inter";
+    letter-spacing: 0.5px;
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    width: 1920px;
+    height: auto;
+    padding: 80px 375px;
+    margin: 0;
+}
+
+section.first {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 536px;
+    text-align: center;
+}
+
+.food-showcase {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    width: 1170px;
+    align-items: center;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.benefit {
+    display: flex;
+    gap: 24px;
+}
+
+.benefit img {
+    width: 60px;
+    height: 60px;
+}
+
+.benefit > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.get-product {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.get-product a {
+    text-decoration: none;
+    background-color: #EE6F4B;
+    border-radius: 6px;
+    padding: 12px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.get-product a span {
+    color: #FFF;
+    font: 600 16px/24px "Inter";
+    letter-spacing: 0.5px;
+}
+
+.payment-methods, .payment-methods ul, .guarantee {
+    display: flex;
+    justify-content: space-between;
+}
+
+.guarantee {
+    color: #424153;
+    font: 400 13px/19.5px "Inter";
+    letter-spacing: 0.5px;
+    align-items: center;
+    gap: 8px;
+}
+
+
+section.second {
+    display: flex;    
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F8;
+}
+
+.nutrition-info {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: stretch;
+    min-width: 590px;
+}
+
+.nutrition-info > * {
+    width: 100%;
+    padding: 0;
+}
+
+.nutri, .key-points {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.points {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.points > div {
+    display: flex;
+    gap: 48px;
+}
+
+.points span {
+    color: #EE6F4B;
+    font: 700 33px/49.5px "Inter";
+    letter-spacing: 0.25px;
+    padding: 0;
+}
+
+hr {
+    width: 100%;
+    background-color: #E3E3E8;
+    height: 1px;
+}
+
+.nutrition-info a {
+    text-decoration: none;
+    background-color: #EE6F4B;
+    border-radius: 6px;
+    padding: 12px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.nutrition-info a span {
+    color: #FFF;
+    font: 600 16px/24px "Inter";
+    letter-spacing: 0.5px;
+}
+
+.second img {
+    width: 570px;
+    height: 570px;
+    border-radius: 10px;
+}
+
+section.third {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.features img {
+    width: 570px;
+    height: 480px;
+    border-radius: 10px;
+}
+
+.features {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.features:last-child {
+    flex-direction: row-reverse;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* word-wrap: break-word; */
+}
+
+.features:first-child .feature{
+    padding-left: 32px;
+}
+
+.features:last-child .feature{
+    padding-right: 32px;
+}
